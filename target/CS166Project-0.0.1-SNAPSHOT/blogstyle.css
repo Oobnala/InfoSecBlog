@@ -1,0 +1,12 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="login_action.jsp" method="post">
+		<div class="container">
+			<div class="jumbotron jumbotron-fluid">
+	  			<div class="container">
+	    			<h1>Welcome to  myBlog!</h1>
+	  			</div>
+			</div>
+			 <div class="row">
+  				<div class="column">			
+  					<img class ="loginimage" src="https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?cs=srgb&dl=background-black-blank-733857.jpg&fm=jpg" height=400 width=700>
+  				</div>
+ 			 	<div class="column pad">
+ 			 		<div class="form-group panel panel-default">
+						<div class="panel-heading">		
+							<label>Login ID</label><input name="user" type="text" class="form-control" id="login">
+							<label>Password</label><input name="pass" type="password" class="form-control" id="password">				
+							<p>Create a new <a href="registration.html">Account</a>?</p>
+    						<br/>
+    						<br/>
+							<button type="submit" class="btn btn-primary">Log In</button>			
+						</div>
+					</div>
+ 			 	</div>
+			</div> 
+		</div>
+	</form>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Post Blog</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="post_attack_action.jsp" method="post">
+	<div class="container regpad">
+		<div class="form-group panel panel-default">		
+		  <div class="panel-heading">
+			  <h2>Web Site Defacing Attack</h2>
+		  </div>		  
+		  <div class="panel-body">
+			  <label>Title</label><input name="title" type="text" class="form-control" id="title">
+			  <br/>
+			  <label for="content">Blog Content: (Use script document.body.style.backgroundColor = "red") </label>
+			  <textarea name="content" class="form-control" rows="10" type="text" id="content"></textarea>
+			  <br/>
+			  <button type="submit" class="btn btn-primary pull-right">Post</button>
+		  </div>
+		</div> 
+	</div>
+</form>
+</body>
+</html>
